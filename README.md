@@ -304,6 +304,10 @@ Show debug messages.
 
 Allow invalid and self-signed certificates over https.
 
+#### `--follow, -F`
+
+Allow usage of dynamic parsed URLs (kind of scrapper+load tester)
+
 #### `--cert path/to/cert.pem`
 
 Sets the certificate for the http client to use. Must be used with `--key`.

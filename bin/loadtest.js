@@ -34,6 +34,7 @@ var options = stdio.getopt({
 	secureProtocol: {key: 's', args: 1, description: 'TLS/SSL secure protocol method to use'},
 	keepalive: {key: 'k', description: 'Use a keep-alive http agent'},
 	version: {key: 'V', description: 'Show version number and exit'},
+	follow: {key: 'F', description: 'Use URLs found on the initial page and all other pages'},
 	rps: {args: 1, description: 'Specify the requests per second for each client'},
 	agent: {description: 'Use a keep-alive http agent (deprecated)'},
 	index: {args: 1, description: 'Replace the value of given arg with an index in the URL'},
